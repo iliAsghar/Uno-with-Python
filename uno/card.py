@@ -4,7 +4,7 @@ class Card:
         self.value = value
 
     def __str__(self):
-        return self.color+str(self.value)
+        return f"Card: {self.color} {self.value}"
 
 # test
 # c1 = Card("red", 8)
